@@ -26,21 +26,21 @@ return (
 <div className="contact__options">
 <article className='contact__option'>
 <MdOutlineEmail className='contact__option__icon'/>
-<h4>Email</h4>
+<p>Email</p>
 <h5>takohclovet7@gmail.com</h5>
 <a href='mailto:aldenovpoutine99@gmail.com' target='_blank'>send a
 message</a>
 </article>
 <article className='contact__option'>
 <AiOutlineLinkedin className='contact__option__icon'/>
-<h4>LinkedIn</h4>
+<p>LinkedIn</p>
 <h5>Profile</h5>
 <a href='/#'
-target='_blank'>Tape me on LinkedIn</a>
+>Tape me on LinkedIn</a>
 </article>
 <article className='contact__option'>
 <BsWhatsapp className='contact__option__icon'/>
-<h4>Whatsapp</h4>
+<p>Whatsapp</p>
 <h5>Direct message</h5>
 <a href='https://web.whatsapp.com/send?phone=+237674633142'
 target='_blank'>Whatsapp me</a>

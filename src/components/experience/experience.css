@@ -1,0 +1,13 @@
+.experienceMainDiv p{
+    font-weight: bolder;
+    color: rgba(197, 202, 206,0.7);
+}
+.experienceMainDiv div {
+color: rgba(146, 79, 180,0.4);
+margin-left: 200px;  
+}
+
+.experienceMainDiv  h3{
+    color: rgb(143, 148, 144);
+  
+}
