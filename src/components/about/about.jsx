@@ -1,14 +1,15 @@
 import React from "react";
 import "./about.css";
 import {FaGithub} from 'react-icons/fa'
-import me from "../images/junior.jpg";
+import me from "../images/Roderic.jpeg";
  function About(){
 
     return(
-<div className="aboutDivStart">
+<div className="aboutDivStart" >
+  <section id="about">
     <center>
-  <h5>Get to know</h5> 
-    <h2>About me</h2>
+  
+    <h1>ABOUT ME</h1>
  </center>
 
     <div className="mainDivAbout">
@@ -24,27 +25,21 @@ import me from "../images/junior.jpg";
         <div className="experience one"><br />
            <span><FaGithub/></span><br />
    <h3>Experience</h3>
-   <h4>1+ Years</h4>
+   <h4>4+ Years</h4>
         </div>
         <div className="clients one"><br />
       <span><FaGithub/></span><br />
    <h3>Clients</h3><br />
-   <h5>3 world widely</h5>
+   <h5>13 world widely</h5>
         </div>
         <div className="project one"><br />
         <span><FaGithub/></span><br />
    <h3>Projects</h3>
-   <h4>2 completed </h4>
+   <h4>4 completed </h4>
         </div>
     </div>
   <div className="plainText"><h4>
-  I am a young software engineer trained at the Faculty of Engineering of the University of Buea (FET). 
-  I get my B.eng in 2021. Being on demand for experience, I apply to Camsol.io which accepts me and gives me 
-  the chance to work on real business projects in order to gain experience. From July 2021 to today, I learned
-   technologies such as react, react native, in short the MERN stack, I am still learning and counting on the support
-    of Camsol to increase my knowledge at end of being an engineer not only graduate, but also qualified. I hold 
-    a French-speaking baccalaureate D sexion, my university studies at FET I did in English. I can therefore
-     express myself in French and in English (average).
+  I am a young software engineer trained at the Faculty of Engineering of the University of Buea (FET) where i will obtain my B.eng in the year 2025. I will apply for internship to MTN Company so as to gain experience while on internship.I am a holder of the cameroon Advanced level certificate.I am doing  my university studies at FET in English which i can express myself in English. 
 
      </h4>
   </div>
@@ -54,6 +49,7 @@ import me from "../images/junior.jpg";
 
 </div>
 <button id="btnTalk">let's talk</button>
+</section>
 </div>
     );
 }

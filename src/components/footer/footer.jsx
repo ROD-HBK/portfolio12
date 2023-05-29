@@ -1,10 +1,11 @@
-import react from "react";
-
+import React from "react";
+import "./footer.css"
  function Footer(){
 
     return(
-<div>
-
+<div id="footer">
+<h1>EFUETANZOH ASONG RODERIC</h1>
+<h2><p>&copy; 2023</p></h2>
 </div>
     );
 }

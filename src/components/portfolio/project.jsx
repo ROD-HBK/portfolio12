@@ -10,7 +10,7 @@ import "./project.css"
 <img src={props.url} alt="" />
 </div>
 <br />
-<p>project {props.num}</p>
+project {props.num} <br />
 <br />
 <div className="btnDiv">
 <button id="btnGit">Github</button>

@@ -4,16 +4,17 @@ import "./experience.css"
 
     return(
 <div className="experienceMainDiv">
-<p>What skills i have</p>
-<div>
+<h1><p>My Experience</p></h1>
+<div id="list">
 <ul>
-    <li>certified frontend developer</li>
-    <li>certified backend developer</li>
-    <li>certified database designer</li>
+    <li>-HTML/CSS</li>
+    <li>-C/C++</li>
+    <li>-Java</li>
+    <li>-React</li>
 </ul>
 </div>
 
-<h2>My Experience</h2>
+
 <h3>1+ YEAR EXPERIENCE</h3>
 
 

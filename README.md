@@ -1,14 +1,6 @@
 
-THIS PROJECT WAS DONE BY
-
-NAME::      TAKOH CLOVERT NFUA 
-MATRICULE::      FE21A311
-
-
-THIS PROJECT WAS DONE BY
-
-NAME::      TAKOH CLOVERT NFUA 
-MATRICULE::      FE21A311
+Efuetanzoh Asong Roderic 
+FE21A179
 
 
 # Getting Started with Create React App

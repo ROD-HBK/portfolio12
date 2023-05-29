@@ -9,15 +9,15 @@
 
 
 .portfolioMainDiv {
-    margin-top: 130px;
+    margin-top: 150px;
 }
 .portfolioMainDiv h6{
     font-size: small;
     font-weight: bolder;
-    color:rgba(179, 174, 174,0.5);
+    color:rgb(255, 0, 0);
 }
 .portfolioMainDiv h3{
     font-size: x-large;
     font-weight: bolder;
-    color:rgba(179, 174, 174,0.9);
+    color:rgb(249, 5, 5);
 }
