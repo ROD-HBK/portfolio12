@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 Efuetanzoh Asong Roderic 
 FE21A179
@@ -76,3 +77,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 
+=======
+# my-portfolio
+>>>>>>> 3a7c45ab0551a3dd451d64017d87122e705b1eb5
