@@ -23,17 +23,18 @@ import me from "../images/Roderic.jpeg";
 <div className="rightSide">
     <div className="up">
         <div className="experience one"><br />
-           <span><FaGithub/></span><br />
+           
+           <br />
    <h3>Experience</h3>
    <h4>4+ Years</h4>
         </div>
         <div className="clients one"><br />
-      <span><FaGithub/></span><br />
+      <br />
    <h3>Clients</h3><br />
    <h5>13 world widely</h5>
         </div>
         <div className="project one"><br />
-        <span><FaGithub/></span><br />
+        <br />
    <h3>Projects</h3>
    <h4>4 completed </h4>
         </div>
