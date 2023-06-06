@@ -1,6 +1,8 @@
 import React from "react";
 import "./about.css";
-import {FaGithub} from 'react-icons/fa'
+import {FaAward} from 'react-icons/fa'
+import{FaUsers} from 'react-icons/fa'
+import {VscFolderActive} from 'react-icons/vsc'
 import me from "../images/Roderic.jpeg";
  function About(){
 
@@ -25,16 +27,19 @@ import me from "../images/Roderic.jpeg";
         <div className="experience one"><br />
            
            <br />
+           <FaAward/>
    <h3>Experience</h3>
    <h4>4+ Years</h4>
         </div>
         <div className="clients one"><br />
       <br />
+      <FaUsers/>
    <h3>Clients</h3><br />
    <h5>13 world widely</h5>
         </div>
         <div className="project one"><br />
         <br />
+        <VscFolderActive/>
    <h3>Projects</h3>
    <h4>4 completed </h4>
         </div>

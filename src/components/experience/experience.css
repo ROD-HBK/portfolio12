@@ -1,13 +1,13 @@
 .experienceMainDiv p{
     font-weight: bolder;
-    color: rgb(255, 0, 0);
+    color: rgb(253, 3, 3);
 }
 .experienceMainDiv div {
 padding: 20px;
 color: rgb(255, 255, 255);
 width: 270px;
 height: 140px;
-background-color: rgb(255, 0, 0);
+background-color:rgb(160, 156, 156);
 text-transform: uppercase;
 border-radius: 50px;
 font-size: large;
@@ -16,11 +16,11 @@ margin:auto
 }
 
 .experienceMainDiv  h3{
-    color: rgb(143, 148, 144);
+    color: rgb(164, 77, 77);
   
 }
 
 .experienceMainDiv #list:hover{
-background-color: white;
+background-color: rgb(166, 109, 109);
 color: rgb(0, 0, 0);
 }

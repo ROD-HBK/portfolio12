@@ -13,8 +13,13 @@ import "./project.css"
 project {props.num} <br />
 <br />
 <div className="btnDiv">
-<button id="btnGit">Github</button>
-<button id="btnDemo">Live Demo</button>
+<button id="btnGit">
+<a href="https://github.com/ROD-HBK" className= 'btn' target = '_blank'>Github</a>
+
+</button>
+<button id="btnDemo">
+<a href="https://youtube.com" className= 'btn' target = '_blank'>Live Demo</a>
+</button>
 </div>
 
 </div>

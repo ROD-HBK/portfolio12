@@ -5,7 +5,7 @@ import About from './components/about/about'
 import Experience from './components/experience/experience'
 import Services from './components/service/service'
 import Portfolio from './components/portfolio/portfolio'
-import Testimonial from './components/testimonial/testimonial'
+import Testimonials from './components/testimonials/Testimonials'
 import Contact from './components/contact/contact'
 import Footer from './components/footer/footer'
 
@@ -23,7 +23,7 @@ return (
 <Experience/><br /><br /><br /><br /><br />
 <Services/>
 <Portfolio/>
-<Testimonial/>
+<Testimonials/>
 <Contact/>
 <Footer/>
 

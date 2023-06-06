@@ -1,13 +1,19 @@
 #navItems{
     background-color:rgb(53, 52, 52);
-    width: 300px;
+    width: max-content;
+    display: block;
+    z-index: 2;
       height: 80px;
-   padding-top: 18px;
+   padding: 18px;
    border-radius: 50px;
+   position: flex;
+   display: flex;
+   
+   
 }
 
 .navBar{
-    margin-top: 20px;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
 }
@@ -31,11 +37,12 @@
     border-radius: 25px;
 
 }
-#navItems ul li .two:hover{
+navItems ul li .two:hover{
   background-color: rgba(137, 182, 93,0.5);
 }
 #navItems ul li .two:active{
-    background-color: rgba(137, 182, 93,0.5);   
+    background-color: rgba(100, 185, 46, 0.5); 
+      
 }
 
 

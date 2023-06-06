@@ -41,7 +41,7 @@ background: var(--color-primary);
     /* border-radius: 12rem 12rem 12rem 12rem; */
     border-radius: 50%;
     overflow: hidden;
-    /* padding: 0rem 1.5rem 1.5rem 1.5rem; */
+   
     }
     .scroll__down{
     position: absolute;

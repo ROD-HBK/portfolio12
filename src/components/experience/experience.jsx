@@ -1,5 +1,6 @@
 import React from "react";
 import "./experience.css"
+import{BsFillPatchCheckFill} from 'react-icons/bs'
  function Experience(){
 
     return(
@@ -7,10 +8,10 @@ import "./experience.css"
 <h1><p>My Experience</p></h1>
 <div id="list">
 <ul>
-    <li>-HTML/CSS</li>
-    <li>-C/C++</li>
-    <li>-Java</li>
-    <li>-React</li>
+     <li>HTML/CSS <BsFillPatchCheckFill/></li>
+     <li>C/C++ <BsFillPatchCheckFill/></li>
+     <li>Java <BsFillPatchCheckFill/></li>
+     <li>React <BsFillPatchCheckFill/></li>
 </ul>
 </div>
 

@@ -1,15 +1,18 @@
 .aboutDivStart{
 margin-top: 150px;
+display: grid;
+
 
 }
 .aboutDivStart center{
     font-weight: bolder;
-    color: rgb(255, 0, 0);
-    margin-bottom: 40px;
+    color: rgb(249, 7, 7);
+    margin-bottom: 20px;
+    margin-top: -280px;
   
 }
 .one{
-    height: 160px;
+    height: 180px;
     background-color: rgb(0, 30, 255);
     width: 220px;
     margin-left:30px;
@@ -17,23 +20,25 @@ margin-top: 150px;
 }
 
 .one:hover{
-    background-color:#ff0000;
-    border: rgb(255, 0, 0) 1.5px solid ;
+    background-color: transparent;
+    border: rgb(94, 93, 93) 1.5px solid ;
 }
 
 
 .one h3{
-  padding-top:10px ;
+  padding-top:1% ;
   padding-left:20px ;
   font-weight: bold;
   color: rgb(255, 255, 255);
+  text-align: center;
 }
 
 .one h4 , .one h5{
     font-size: small;
     font-weight: bolder;
-    color:rgb(255, 255, 255);
+    color:rgb(252, 249, 249);
     padding-left: 35px;
+    text-align: center;
 }
 
 .mainDivAbout,.up{
@@ -53,27 +58,30 @@ margin-top: 150px;
 }
 .plainText , h4{
    text-align: justify;
-   color: rgb(255, 255, 255);
-   margin:15px;
+   color: rgb(149, 146, 146);
+   margin:10px;
+   
 }
 .leftSide .leftMainDiv{
     height: 376px;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(252, 251, 251);
     width: 400px;
     margin-left: 185px;
-    border-radius: 45px;
+    border-radius: 30px;
 
     /* background-position: right top, left bottom; */
 }
 .leftSide .leftMainDiv .imageDiv{
-    height: 80%;
+    height: 100%;
     width: 100%;
     /* background-color: rgb(180, 116, 116); */
     border-radius: 40px 40px 0 0;
     transition-property: transform;
     transition-duration: 0.3s;
-   transform : rotate(30deg);
+   transform : rotate(10deg);
    overflow: hidden;
+   display: grid;
+   place-items: center;
 }
 
 .leftSide .leftMainDiv:hover  .imageDiv{
@@ -83,6 +91,7 @@ margin-top: 150px;
 .aboutDivStart #btnTalk{
     margin-left: 130px;
     margin-bottom: 120px;
+    margin-top: -1200px;
     color:rgb(8, 8, 8);
     width: 110px;
     height: 50px;
@@ -97,3 +106,25 @@ margin-top: 150px;
 .aboutDivStart #btnTalk:hover{
     background-color: rgb(250, 4, 4);
 }
+@media screen and(max-width:1024px) {
+   .one{
+    grid-template-columns: 1fr;
+    gap:0;
+   }
+   .mainDivAbout{
+    width: 50%;
+    margin: 2rem auto 4rem;
+   }
+   .plainText{
+    margin: 1rem 0 1.5rem;
+
+   }
+    }
+    @media screen and(max-width:600px) {
+        header{
+        height:100vh
+        }
+        .header__social, .scroll__down{
+        display: none;
+        }
+    }        

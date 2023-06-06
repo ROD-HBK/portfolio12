@@ -18,6 +18,8 @@ import "./portfolio.css";
     <section id="projects">
     <h3>My recent works</h3>
     <h1>Portfolio</h1>
+ 
+    
     <div className="CenterDiv">
     <div className="threeInOne">
     <Projects  num={1} url={roderic0} /> 

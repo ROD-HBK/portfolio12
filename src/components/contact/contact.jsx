@@ -1,64 +1,60 @@
 import React from 'react'
 import './contact.css'
-import {MdOutlineEmail,MdArrowCircleRight} from 'react-icons/md'
-import {AiOutlineLinkedin} from 'react-icons/ai'
-import {BsWhatsapp} from 'react-icons/bs'
-import {useRef} from 'react'
+import{MdOutlineEmail} from 'react-icons/md'
+import{BsWhatsapp} from 'react-icons/bs'
+import {BsInstagram} from 'react-icons/bs'
+import{ useRef } from 'react';
 import emailjs from 'emailjs-com'
-const Contact = () => {
-const form = useRef();
-const sendEmail = (e) => {
-e.preventDefault();
-emailjs.sendForm('service_5vuauza', 'template_fdnnl56', form.current,
-'EmSdUNQzQuxkUqGWx')
-e.target.reset()
-.then((result) => {
-console.log(result.text)
-},(error) =>{
-console.log(error.text);
-});
-};
-return (
-<section id="contact">
-<h5>Get in touch</h5>
-<h2>Contact</h2>
 
-<div className="container contact__container">
-<div className="contact__options">
 
-<article className='contact__option'>
+const contact = () => {
+    const form = useRef();
 
-<MdOutlineEmail className='contact__option__icon'/>
-<p>  <span><MdArrowCircleRight />  </span> Email</p>
-<h5>efuetroderic@gmail.com</h5>
-<a href='mailto:efuetroderic@gmail.com' target='_blank'   rel="noreferrer">send a
-message</a>
-</article>
-<article className='contact__option'>
-<AiOutlineLinkedin className='contact__option__icon'/>
-<p> <span><MdArrowCircleRight />  </span>  LinkedIn</p>
-<h5>Profile</h5>
-<a href='#nothing'
->Tape me on LinkedIn</a>
-</article>
-<article className='contact__option'>
-<BsWhatsapp className='contact__option__icon'/>
-<p>  <span><MdArrowCircleRight />  </span>  Whatsapp</p>
-<h5>Direct message</h5>
-<a href='https://web.whatsapp.com/send?phone=+237650667583'
-target='_blank'   rel="noreferrer">Whatsapp Number</a>
-</article>
-</div>
-<div id="form"><h2>SEND MESSAGE</h2>
-<form ref={form} onSubmit={sendEmail}>
-<input type="text" name='name' placeholder='               full name' required/><br /><br />
-<input type="email" name='email' placeholder='             your email' required/><br /><br />
-<textarea name="message" id="message" cols="30" rows="10"
-placeholder='                 your message' required></textarea><br /><br />
-<button type="submit" className='btn btn-primary'>Testified</button><br />
-</form></div>
-</div>
-</section>
-)
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs.sendForm('service_ro0wvaw', 'template_drzk9ku', form.current, 'Q8P63lDX46m14dtai')
+         e.target.reset()
+      };
+
+  return (
+  <section id='contact'>
+    <h5>Get In Touch</h5>
+    <h2>Contact Me</h2>
+
+    <div className="container contact_container">
+        <div className="contact_options">
+         <article className='contact_options'>
+           <center> <MdOutlineEmail className='contact_option-icon'/></center>
+            <h4><center>Email</center></h4>
+            <h5>efuetroderic@gmail.com</h5>
+            <a href="mailto:efuetroderic@gmail.com" target="_blank">Send a message </a>
+            </article> 
+           
+            <article className='contact_options'>
+            <center><BsWhatsapp className='contact_option-icon'/></center>
+            <h4> <center>WhatsApp</center></h4>
+            <h5>whatsapp Number</h5>
+            <a href="https://api.whatsApp.com/send?phone+237650667583 " target="_blank">Send a message </a>
+            </article> 
+
+            <article className='contact_options'>
+            <center><BsInstagram className='contact_option-icon'/></center>
+            <h4> <center>Instagram</center></h4>
+            <h5>Instagram Account</h5>
+            <a href="https://m.me/efuetroderic" target="_blank">Send a message </a>
+            </article> 
+        </div>
+
+        <form ref={form} onSubmit={sendEmail}>
+            <input type="text" name='name' placeholder='Your Full Name' required/>
+            <input type="email" name='email' placeholder='Your Email' required/>
+            <textarea name="message"rows="7" placeholder='Your Message' required></textarea>
+            <button type='summit' className='btn btn-primary'>Testified</button>
+        </form>
+    </div>
+  </section>
+  )
 }
-export default Contact
+
+export default contact
